@@ -1,17 +1,32 @@
 body {
     background-color:rgb(87, 162, 228);
     font-family: 'Courier New', Courier, monospace;
-
+    width: 800px;
+    margin: 20px auto;
 }
 
 h1 {
 
     color: brown;
+    
+    text-align: center;
+    font-size: 44px;
+    text-decoration: underline;
 }
 
-a {
+a:link {
 
     color: rgb(243, 220, 11);
+    font-size: 36px;
+    text-decoration: none;
+
+}
+
+
+a:hover {
+
+    color: aliceblue;
+
 }
 
 ul {
@@ -51,12 +66,30 @@ img {
     margin-left: auto;
     margin-right: auto;
     border: 3px solid;
-    border-radius: 15px;
-    
+    border-radius: 15px;    
+
     
 }
 
 h3 {
     text-decoration: underline;
     font-size: larger;
+}
+
+div.recipes {
+    background-color: rgb(90, 160, 156);
+    margin: 30px auto;
+    padding: 20px;
+    width: 500px;
+    border-radius: 100px;
+
+}
+
+.recipes .recipe-link {
+    background-color: brown;
+    margin: 30px 50px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 100px;
+    
 }
